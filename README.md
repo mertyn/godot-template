@@ -6,3 +6,4 @@
 - when using vscode/vscodium
 	- go to extensions and search `@recommended`
 	- click download all button
+	- on the lower right, check if language server is connected (godot editor needs to be running)
