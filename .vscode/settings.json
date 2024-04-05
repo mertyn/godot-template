@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "**/.godot": true,
+        "**/*.import": true
+    },
+
+    "godot_tools.gdscript_lsp_server_port": 6005,
+    "editor.detectIndentation": true,
+    "editor.insertSpaces": false,
+}
