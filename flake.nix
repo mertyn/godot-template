@@ -11,7 +11,10 @@
     devShells."${system}".default = let
       pkgs = import nixpkgs { inherit system; };
     in pkgs.mkShell {
-      packages = [ pkgs.godot_4 ];
+      packages = with pkgs; [
+        godot_4
+        zip
+      ];
 
       # shellHook = ''
       #   godot4 --editor --path ./src && exit
