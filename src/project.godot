@@ -10,7 +10,8 @@ config_version=5
 
 [application]
 
-config/name="alpha-gamejam-april2024"
+config/name="godot project template"
+config/version="0.1"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
 
