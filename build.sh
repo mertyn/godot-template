@@ -3,8 +3,10 @@
 preset="$1"
 version_suffix="$2"
 
-project="cyborg-cat-carnage"
-version="1.1"
+# do some black magic to get the project name and version
+project=$(awk -F'=' '/\[application\]/ { in_section = 1; next } /\[.*\]/ { in_section = 0 } in_section && /config\/name/ {gsub(/"/, "", $2); print $2}' ./src/project.godot)
+project="${project// /-}"
+version=$(awk -F'=' '/\[application\]/ { in_section = 1; next } /\[.*\]/ { in_section = 0 } in_section && /config\/version/ {gsub(/"/, "", $2); print $2}' ./src/project.godot)
 rev=$(git rev-parse --short HEAD)
 
 declare -A file_names=(
