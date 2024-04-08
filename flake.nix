@@ -12,13 +12,10 @@
       pkgs = import nixpkgs { inherit system; };
     in pkgs.mkShell {
       packages = with pkgs; [
+        just
         godot_4
         zip
       ];
-
-      # shellHook = ''
-      #   godot4 --editor --path ./src && exit
-      # '';
     };
   };
 }

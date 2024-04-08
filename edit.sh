@@ -1,1 +1,0 @@
-godot4 --editor --path ./src
