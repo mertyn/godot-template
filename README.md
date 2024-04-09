@@ -1,6 +1,8 @@
-# project setup
-- download godot 4.2.1 (regular, no .net/c#) from [godotengine.org](https://godotengine.org/download)
-- code editor (optional, but nicer): vscode (or vscodium) works best, extension for godot are provided
+# project setup (windows/non-nixos)
+- download godot 4.2.1 (regular, no .net/c#) 
+	- for better management and easier starting, using [scoop](https://scoop.sh/#/apps?q=godot&id=2fdd7b453f1ef3161d01986e2051c646911a642c) or [chocolatey](https://community.chocolatey.org/packages/godot) is recommended on windows
+	- otherwise download from [godotengine.org](https://godotengine.org/download) 
+- code editor (optional, but nicer): vscode (or vscodium) works best, extensions for godot are provided
 - clone repository
 - start godot, import project (select `src/` directory)
 - when using vscode/vscodium
