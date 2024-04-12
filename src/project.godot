@@ -15,6 +15,10 @@ config/version="0.1"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://branding/icon.svg"
 
+[autoload]
+
+Debug="*res://scripts/util/debug.gd"
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
