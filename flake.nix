@@ -2,7 +2,7 @@
   description = "development environment for godot 4 project";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-24.05";
   };
 
   outputs = { self , nixpkgs ,... }: let
