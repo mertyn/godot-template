@@ -12,6 +12,7 @@ config_version=5
 
 config/name="godot project template"
 config/version="0.1"
+run/main_scene="res://scenes/default.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://branding/icon.svg"
 
